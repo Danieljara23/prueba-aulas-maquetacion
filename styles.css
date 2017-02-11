@@ -4,6 +4,7 @@ body{
   height: 100%;
   width: 100%;
   font-family: "Lato";
+  box-sizing: border-box;
 }
 .navbar-default{
   background-color: #FBC002;
@@ -11,4 +12,70 @@ body{
 .navbar-default .navbar-brand{
   color: white;
   font-weight: bold;
+}
+.jumbotron{
+  padding: 25px;
+}
+.first-jumbo{
+  color: white;
+  background: red; /* For browsers that do not support gradients */ /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */
+  background: -webkit-linear-gradient(left,#A94384, #685DBD);
+  background: -o-linear-gradient(left,#A94384, #685DBD);
+  background: linear-gradient(left,#A94384, #685DBD); /* For Firefox 3.6 to 15 */ /* Standard syntax */
+  position: relative;
+}
+.first-jumbo::after{
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("http://aulasamigas.vicaria.edu.ar/wp-content/uploads/2016/01/AAxEncuentro3.jpg");
+  background-size: auto;
+  background: linear-gradient(left,white, transparent); /* For Firefox 3.6 to 15 */ /* Standard syntax */
+  position: absolute;
+  opacity: 0.1;
+  /*z-index: -1;*/
+}
+.first-jumbo strong{
+  color: #FBC002;
+}
+.second-jumbo{
+  background-color: white;
+}
+hr{
+  width: 30px;
+  height: 4px;
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+.jumbotron .resource{
+  font-size: 10px;
+  display: inline-block;
+}
+.second-jumbo .dropdown{
+  display: inline-block;
+}
+.glyphicon{
+  color: white;
+}
+.navbar-brand:hover{
+  color:white;
 }
