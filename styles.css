@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@fa-font-path:   "../font";
 body{
   background-color: #E5E5E5;
   height: 100%;
   width: 100%;
   font-family: "Lato";
   box-sizing: border-box;
+}
+a.navbar-brand {
+    width: 90px;
+    padding-top: 4px;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color: white;
 }
 .navbar-default{
   background-color: #FBC002;
@@ -34,13 +42,12 @@ body{
   width: 100%;
   background-image: url("http://aulasamigas.vicaria.edu.ar/wp-content/uploads/2016/01/AAxEncuentro3.jpg");
   background-size: auto;
-  background: linear-gradient(left,white, transparent); /* For Firefox 3.6 to 15 */ /* Standard syntax */
   position: absolute;
   opacity: 0.1;
-  /*z-index: -1;*/
 }
 .first-jumbo strong{
   color: #FBC002;
+  height: 200px;
 }
 .second-jumbo{
   background-color: white;
@@ -50,16 +57,8 @@ hr{
   height: 4px;
 }
 
-#navlist {
-    position: relative;
-}
-
-#navlist li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: absolute;
-    top: 0;
+.jumbotron .first-jumbo{
+  height: 300px;
 }
 
 #navlist li, #navlist a {
@@ -67,8 +66,10 @@ hr{
     display: block;
 }
 .jumbotron .resource{
-  font-size: 10px;
+  font-size: 12px;
   display: inline-block;
+  color: #ce361b;
+  font-weight: 500;
 }
 .second-jumbo .dropdown{
   display: inline-block;
@@ -78,4 +79,27 @@ hr{
 }
 .navbar-brand:hover{
   color:white;
+}
+.thumbnail,.thumbnail h3,.thumbnail p{
+  color: #9a9898;
+  position: relative;
+}
+.thumbnail img{
+  border-radius: 50%;
+}
+.thumbnail .glyphicon, i{
+  color: #57575f;
+}
+.thumbnail .glyphicon-option-vertical{
+  position: absolute;
+  color: #12124c;
+  right: 2px;
+  top: 6px;
+}
+.thumbnail:hover{
+  cursor: pointer;
+}
+.fa-sort-alpha-asc,.fa-list-ul{
+  display: inline-block;
+  margin-left: 15px;
 }

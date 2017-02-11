@@ -10,10 +10,10 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-  <div class="container">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,8 +24,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><span>aulas</span></a>
-          <a class="navbar-brand" href="#">AMiGAS</a>
+          <a class="navbar-brand" href="#"><span>aulas </span>AMiGAS</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,7 +54,7 @@
           </div><!-- /.container-fluid -->
         </nav>
 
-        <div class="container-fluid">
+        <div class="container">
           <div class="jumbotron first-jumbo">
             <h2>Contenidos</h2>
             <hr class="text-left">
@@ -63,44 +62,49 @@
           </div>
 
           <div class="jumbotron second-jumbo">
-            <h4>CURSOS Y RECURSOS SUGERIDOS</h4>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Tipo
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Tipo 1</a></li>
-                    <li><a href="#">Tipo 2</a></li>
-                    <li><a href="#">Tipo 3</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Tipo 4</a></li>
-                  </ul>
+            <div class="container">
+              <h4>CURSOS Y RECURSOS SUGERIDOS</h4>
+              <div class="row">
+                <div class="col-sm-6 col-md-3">
+                  <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      TIPO
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">Tipo 1</a></li>
+                      <li><a href="#">Tipo 2</a></li>
+                      <li><a href="#">Tipo 3</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Tipo 4</a></li>
+                    </ul>
+                  </div>
+                  <p class="resource">1 recursos sugeridos</p>
+                  <i class="fa fa-sort-alpha-asc"></i>
+                  <i class="fa fa-list-ul"></i>
                 </div>
-                <p class="resource">1 recursos sugeridos</p>
               </div>
-            </div>
 
 
 
-            <div class="row">
-              <div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                  <img src="..." alt="...">
-                  <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>...</p>
-
+              <div class="row">
+                <div class="col-sm-6 col-md-3">
+                  <div class="thumbnail">
+                    <span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>
+                    <img src="http://images.freeimages.com/images/premium/large-thumbs/5334/53345592-pet-dog-flat-icon-with-long-shadow-eps10.jpg" alt="Flat pet">
+                    <div class="caption">
+                      <h3>PET</h3>
+                      <p>Área: Biología.</p>
+                      <p>Nivel: 7°, 8°, 9°.</p>
+                      <span class="glyphicon glyphicon-bookmark" aria-hidden="true">30</span>
+                      <i class="fa fa-smile-o" aria-hidden="true">30</i>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
-      </div>
 
     </body>
     </html>
