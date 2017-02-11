@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body{
+  background-color: #E5E5E5;
+  height: 100%;
+  width: 100%;
+  font-family: "Lato";
+}
+.navbar-default{
+  background-color: #FBC002;
+}
+.navbar-default .navbar-brand{
+  color: white;
+  font-weight: bold;
+}
